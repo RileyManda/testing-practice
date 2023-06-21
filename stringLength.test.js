@@ -9,7 +9,7 @@ describe('stringLength', () => {
 
     testCases.forEach(({ string, expectedLength }) => {
       const result = stringLength(string);
-      expect(result.length).toBe(expectedLength);
+      expect(result).toBe(expectedLength);
     });
   });
 });

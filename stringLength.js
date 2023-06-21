@@ -1,6 +1,3 @@
-const stringLength = (string) => ({
-  length: string.length,
-  string,
-});
+const stringLength = (string) => string.length;
 
 module.exports = stringLength;
